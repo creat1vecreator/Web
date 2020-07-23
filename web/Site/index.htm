@@ -1,0 +1,270 @@
+<html>
+
+<head>
+    <title>Домашнее задание</title>
+    <form action="http://g05u94.nn2000.info/cgi-bin/squirt.py" method='get' target='_self'>
+</head>
+
+<body background="https://krot.info/uploads/posts/2020-01/1579201292_37-125.jpg" vlink="blue">
+    <h1>
+        <center><strong>Домашнее задание 1</strong></h1>
+    <h2><strong>Оглавление:</strong></h2>
+    <ul>
+        <li><a href="#ls">Представление содержания элементов файловой системы (ls)</a></li>
+        <li><a href="#mkdir">Создание и модифицирование сущностей (mkdir, mv, rm, cp)</a></li>
+        <li><a href="#cat">Модифицирование файлов (cat)</a></li>
+        <li><a href="#chmod">Управление правами (chmod)</a></li>
+        <li><a href="#iconv">Управление кодировками файлов (iconv)</a></li>
+        <li><a href="#ftp">Межсерверный обмен данными (ftp)</a></li>
+        <li><a href="#bz2">Архивирование и сжатие файлов (bz2)</a></li>
+        <li><a href="#tar">Создать tar.sh для автоматического (tar)</a></li>
+    </ul>
+
+
+    <i>Нажмите на картинку, чтобы открыть её в полном размере</i>
+    <br>
+
+    <h3 id="ls"> Представление содержания элементов файловой системы (ls)</h3>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/ls_home.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/ls_home.png" /></a>
+        <br>В цвете показать подробное описание всех сущностей домашнего раздела
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/ls_home_cgi-bin.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/ls_home_cgi-bin.png" /></a>
+        <br>Показать содержание раздела cgi-bin с отражением особенностей представления сущностей типа папка, файл и др.
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/ls_home_public_html.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/ls_home_public_html.png" /></a>
+        <br>Показать содержание public_html с реверсивной сортировкой сущностей по времени последнего изменения
+        <br>Дается баллов за эти задания:
+        <select name="ls">
+            <OPTION value="0">0</OPTION> 
+            <OPTION value="1">1</OPTION>
+            <OPTION value="2">2</OPTION> 
+            <OPTION value="3">3</OPTION>   
+            </select>
+    </p>
+    <h3 id="mkdir">
+        </h3id>Создание и модифицирование сущностей (mkdir, mv, rm, cp)</h3>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/mkdir_1.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/mkdir_1.png" /></a>
+        <br>Cоздать ~/public_html/bash/r/r_1/r_1_01
+        <br>Cоздать ~/public_html/bash/r/r_1/r_1_02
+        <br>Скопировать r_1 в r_2
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/mkdir_2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/mkdir_2.png" /></a>
+        <br>Рекурсивно показать наличие созданных сущностей (можно начиная с r2)
+
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/mkdir_3.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/mkdir_3.png" /></a>
+        <br>Выполнить удаление папки r (и можно потвердить удаление)
+        <br>Дается баллов за эти задания:
+        <select name="mkdir">
+    <OPTION value="0">0</OPTION> 
+    <OPTION value="1">1</OPTION>
+    <OPTION value="2">2</OPTION> 
+    <OPTION value="3">3</OPTION>
+    </select>
+    </p>
+
+    <h3 id="cat">Модифицирование файлов (cat)</h3>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/cat_1_1.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/cat_1_1.png" /></a>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/cat_1_2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/cat_1_2.png" /></a>
+
+        <br>Нижеперечисленные строки записать в ~/public_html/bash/cat/cat_task.txt
+        <br>a.
+        <br>b.abc
+        <br>c.ABC
+        <br>(! enter - пустая строка)
+        <br>(! enter - пустая строка)
+        <br>(! enter - пустая строка)
+        <br>d.
+        <br>пробел
+        <br>табуляция (tab)
+        <br>e.abc
+        <br>f.abc
+        <br>g.
+        <br>Дается баллов за задание:
+
+    </p>
+
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/cat_2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/cat_2.png" /></a>
+        <br>Отобразить содержимое файла ~/public_html/bash/cat/cat_task.txt, включая символы окончания строк
+        <br>Дается баллов за эти задания: 3
+        <select name="cat">
+            <OPTION value="0">0</OPTION> 
+            <OPTION value="1">1</OPTION> 
+            <OPTION value="2">2</OPTION>
+            <OPTION value="3">3</OPTION> 
+            </select>
+    </p>
+
+    <h3>Управление правами (chmod)</h3>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/chmod_1.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/chmod_1.png" /></a>
+        <br>chmod (chmod a+rwx 1.txt; chmod ugo-w 1.txt; chmod 644 1.txt)
+        <br>В ~/public_html/my_secret создать chmod.txt с содержанием типа g05u00 изучаем chmod
+        <br>С использованием браузера показать содержание созданного файле
+        <br>
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/chmod_2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/chmod_2.png" /></a>
+        <br>Запретить всем, кроме собственника чтение файла С использованием браузера показать содержание созданного файле
+        <br>
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/photo/chmod_3.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/chmod_3.png" /></a>
+        <br>Показать права созданного файла
+        <br>Запретить всем (кроме собственника -пока не делать) (в том числе и членам группы) просмотр папки my_secret С использованием браузера продемонстрировать результат
+        <br>Дается баллов за эти задания: 3
+        <select name="chmod">
+    <OPTION value=0>0</OPTION> 
+    <OPTION value=1>1</OPTION>
+    <OPTION value=2>2</OPTION>  
+    <OPTION value=3>3</OPTION> 
+         </select>
+    </p>
+
+    <h3 id="iconv">Управление кодировками файлов (iconv)</h3>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/iconv_1.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/iconv_1.png" /></a>
+        <br>Создать файл в (по усмотрению автора) с содержанием типа
+        <br>date 2000
+        <br>время 14:00
+        <br>Создать папки
+        <br>~/public_html/education/iconv/utf-8/
+        <br>~/public_html/education/iconv/cp1251/
+        <br>Показать наличие созданных папок
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/iconv_2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/iconv_2.png" /></a>
+        <br>В соответствии с названиями папок выполнить копирование и дополнение строкой "кодировка cp1251" или "кодировка utf-8" и соответствующее кодирование ранее созданного файла.
+        <br>Последовательным отображением содержания файлов доказать правильность копирования и кодирования
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/utf_8.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/utf_8.png" /></a>
+        <br>Обеспечить корректное автоматическое отображение символов в браузере (настроить .htaccess для соответствующих папок)
+        <br>Дается баллов за эти задания: 3
+        <select name="iconv">
+    <OPTION value="0">0</OPTION> 
+    <OPTION value="1">1</OPTION>
+    <OPTION value="0">2</OPTION> 
+    <OPTION value="1">3</OPTION>  
+    </select>
+    </p>
+
+    <h3>Межсерверный обмен данными (ftp)</h3>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/drivehq_01.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/drivehq_01.png" /></a>
+        <br>ftp ftp.drivehq.com
+        <br>~/public_html/education/ftp
+        <br>на drivehq.com и в папке My Documents создать файл с содержанием типа
+        <br>date 2000
+        <br>время 14:00
+        <br>from drivehq.com
+        <br>Используя ftp показать подробное содержимое папки My Documents на drivehq.com
+        <br>Дается баллов за это задание: 1
+        <select name="drivehq_01">
+    <OPTION value="0">0</OPTION> 
+    <OPTION value="1">1</OPTION> 
+    </select>
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/drivehq_02_01.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/drivehq_02_01.png" /></a>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/drivehq_02_02.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/drivehq_02_02.png" /></a>
+
+        <br>Загрузить drivehq.png в My Pictures на drivehq.com
+        <br>Используя ftp и ftp.drivehq.com скопировать созданный файл в ~/public_html/education/ftp и показать содержимое этого файла в браузере
+        <br>Дается баллов за это задание: 1
+        <select name="drivehq_02">
+    <OPTION value="0">0</OPTION> 
+    <OPTION value="1">1</OPTION>
+    <OPTION value="2">2</OPTION>
+    </select>
+    </p>
+
+    <h3 id="arp">Архивирование и сжатие файлов</h3>
+    <br>https://ru.wikipedia.org/wiki/Bzip2
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/tar.bz1.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/tar.bz1.png" /></a>
+        <br>Cоздать копию /education и назвать ее /education_old
+        <br>В /education/tar создать архив папки /education_old и назвать его /education_old.tar.
+        <br>education_old.tar сжать по алгаритму Хаффмана (bzip2/bz2) и назвать его education_old.tar.bz2
+        <br>Используя ls показать размеры созданных файлов в байтах
+        <select name="tarbz">
+    <OPTION value="0">0</OPTION> 
+    <OPTION value="1">1</OPTION> 
+    </select>
+    </p>
+
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/tar.bz2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/tar.bz2.png" /></a>
+        <br>Создать архив основных папок и конфигурационных файлов домашнего раздела в ~/tmp/home.bz2
+        <br>Загрузить созданный архив на удаленный сервер в My Documents и показать его наличие в папке
+        <select name="homebz1">
+        <OPTION value="0">0</OPTION> 
+        <OPTION value="1">1</OPTION> 
+        </select>
+    </p>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_1.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_1.png" /></a>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_2.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_2.png" /></a>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_3.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_3.png" /></a>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_4.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/tar_bz_3_4.png" /></a>
+        <br>Извлечь содержание архива в ~/js и показать рекурсивно подробное содержание ~/js
+        <br>Дается баллов за это задание:
+        <select name="homebz2">
+                <OPTION value="0">0</OPTION> 
+                <OPTION value="1">1</OPTION> 
+                <OPTION value="2">2</OPTION> 
+                <OPTION value="3">3</OPTION> 
+                <OPTION value="4">4</OPTION> 
+=                </select>
+    </p>
+    <p>
+        <a href="http://g05u94.nn2000.info/public_html/pictures/home.png" target="_blank"><img height="100" src="http://g05u94.nn2000.info/public_html/pictures/home.png" /></a>
+        <br>Создать tar.sh для автоматического
+        <br>- удаления старого архива в ~/tmp
+        <br>- создания нового сжатого архива всех папок домашнего каталога за исключением папки tmp и с названием типа home_g03u00.tar.bz2
+        <br>- просмотра полной информации о файле типа home_g03u00.tar.bz2
+        <br>Дается баллов за это задание:
+        <select name="hometar">
+                <OPTION value="0">0</OPTION> 
+                <OPTION value="1">1</OPTION> 
+                </select>
+    </p>
+
+    <br>
+    <!--Все нижерасположенные фрагменты перемещать нельзя, редактировать можно-->
+    <p>Название файла: <input type="Техт" name="000_file_name" value="g05u94.txt">
+        <br>Тип записи в файл:<select name="010_mode">
+    <OPTION value="a">a - дозаписать в файл</OPTION> 
+    <OPTION value="w">w - очисить файл и записать в файл</OPTION> 
+    </select>
+        <input type="hidden" name="function" value="page">
+        <input type="hidden" name="page_id" value="0"></p>
+    <p> <input type="Reset" name="Reset" value="Обновить">
+        <input type="Submit" name="submit" value="Отправить">
+    </p>
+    </form>
+
+</body>
+
+</html>
+</body>
+
+</html>
